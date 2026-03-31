@@ -1,0 +1,16 @@
+{
+  "name": "channel-cleaner-bot",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "session": "node generate-session.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "telegram": "^2.22.2",
+    "express": "^4.18.2",
+    "input": "^1.0.1"
+  },
+  "engines": { "node": ">=18" }
+}
