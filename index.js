@@ -40,7 +40,7 @@ async function startUserbot() {
 // ─── FETCH ALL MEMBERS ────────────────────────────────────
 async function fetchAllMembers(channelEntity, onProgress) {
   let offset = 0;
-  const limit = 200;
+  const limit = 1000;
   const all = [];
 
   while (true) {
